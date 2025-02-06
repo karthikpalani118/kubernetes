@@ -9,4 +9,4 @@ spec:
   - name: hello-container
     image: hub.comcast.net/dx_svsops_platformoperations/kkarth438/alpine:latest
     imagePullPolicy: Always
-    command: ["echo", "hello"]
+    command: ["/bin/sh", "-c", "echo hello && tail -f /dev/null"]
