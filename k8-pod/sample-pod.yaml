@@ -7,6 +7,6 @@ spec:
     - name: my-registry-secret
   containers:
   - name: hello-container
-    image: hub.comcast.net/dx_svsops_platformoperations/alpine:latest
+    image: hub.comcast.net/dx_svsops_platformoperations/kkarth438/alpine:latest
     imagePullPolicy: Always
     command: ["echo", "hello"]
